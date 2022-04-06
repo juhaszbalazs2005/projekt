@@ -16,3 +16,6 @@ Reméljük Henrik megcsinálja (legalábbis elkezdi) a Packet Tracer feladatot.
 Péter elkezdte csinálni a html weboldalt
 -----------------------------------------------------------------------------------------------
 Balázs befejezte a programot, mostantól ő írja a dokumentálást
+-----------------------------------------------------------------------------------------------
+Balázs elkezdett javascriptben munkálkodni, mivel eléggé unatkozott
+
