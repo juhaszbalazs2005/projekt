@@ -18,4 +18,6 @@ Péter elkezdte csinálni a html weboldalt
 Balázs befejezte a programot, mostantól ő írja a dokumentálást
 -----------------------------------------------------------------------------------------------
 Balázs elkezdett javascriptben munkálkodni, mivel eléggé unatkozott
-
+-----------------------------------------------------------------------------------------------
+10:00
+Miután rájöttünk hogy html helyett hmtl-t írtunk id ként, újra feltöltöttük a html file-t
