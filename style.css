@@ -4,3 +4,8 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#kep{
+    width: 400px;
+    height: 500px;
+}
