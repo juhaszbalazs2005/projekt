@@ -21,3 +21,7 @@ Balázs elkezdett javascriptben munkálkodni, mivel eléggé unatkozott
 -----------------------------------------------------------------------------------------------
 10:00
 Miután rájöttünk hogy html helyett hmtl-t írtunk id ként, újra feltöltöttük a html file-t
+-----------------------------------------------------------------------------------------------
+10:35
+Befejeztük a javascript file-t, html-be beleépítve és fixeltük a bugokat
+-----------------------------------------------------------------------------------------------
