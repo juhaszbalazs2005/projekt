@@ -1,3 +1,4 @@
+2022.04.06 8:30
 Először alaposan átolvastuk legalább 69-szer a feladatot, hogy biztosan ne vétsünk 1 hibát se.
 -----------------------------------------------------------------------------------------------
 Csapatunk tagjai ők: Balázs Juhász, Vida Henrik, Zorinátz Péter.
@@ -11,3 +12,7 @@ Az munkálatokról szóló képeket a Z:\10. Osztály\10. Osztály - Monok Judit
 -----------------------------------------------------------------------------------------------
 Reméljük Henrik megcsinálja (legalábbis elkezdi) a Packet Tracer feladatot.
 -----------------------------------------------------------------------------------------------
+2022.04.06 9:33
+Péter elkezdte csinálni a html weboldalt
+-----------------------------------------------------------------------------------------------
+Balázs befejezte a programot, mostantól ő írja a dokumentálást
