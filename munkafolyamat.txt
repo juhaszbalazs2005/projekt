@@ -35,3 +35,6 @@ Megpróbáltuk bepozícionálni a képet illetve a gombot, a szöveg nem ment se
 9:22
 Befejeztük PETIVEL a packet tracer feladatot
 -----------------------------------------------------------------------------------------------
+14:23
+Megváltoztattuk az oldal hátterét, javítottunk a programon(hibakódok, file-ba elmentni az adatokat)
+-----------------------------------------------------------------------------------------------
