@@ -29,3 +29,6 @@ Befejeztük a javascript file-t, html-be beleépítve és fixeltük a bugokat
 Henrikről semmi információ nincs, reméljük hogy elkezdte a feladatot, mert ha nem akkor nem lenne
 jó 1-est kapni miatta és rontani az átlagom :/
 -----------------------------------------------------------------------------------------------
+8:39
+Megpróbáltuk bepozícionálni a képet illetve a gombot, a szöveg nem ment sehogy sem :/
+-----------------------------------------------------------------------------------------------
