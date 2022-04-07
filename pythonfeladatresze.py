@@ -17,12 +17,17 @@ def arkalkulacio():
         darabok.append(str(adat3)) # darabszámát
         a = str(adat1) + " költségvetése: " + str(adat2*adat3) # Alap szöveg
         aki.append(a) # Elmentjük a listába a szöveget
-    for i in range(0, adat): #Lefuttatja többször(amennyit megadtunk) a a szöveget 
+    f=open("Koltsegvetes.txt","w",encoding="UTF-8")
+    for i in range(0, adat): #Lefuttatja többször(amennyit megadtunk) a szöveget 
+
+        
         print("--------------------------") # Díszítés
         print() #Semmi
         print(aki[i]) #Szöveg az adott elemnél
         print() #Semmi
         print("--------------------------") #Díszítés
+        f.write(aki[i]+"\n")
+    f.close()
 
 #------------[Meghívjuk a promgramot hogy lefusson]------------#
 arkalkulacio()
