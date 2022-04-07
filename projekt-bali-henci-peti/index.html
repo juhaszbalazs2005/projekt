@@ -1,0 +1,70 @@
+<html lang="hu"><head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="style.css">
+     <link rel="bootstrap.min.js">
+     <link rel="bootstrap.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="kalkulator.js"></script>
+     <title>Projektmunka</title>
+ </head>
+ <body>
+    <h1>PROJEKTMUNKA (BALÁZS, PÉTER, HENRIK)</h1>
+    <p>
+      2022.04.06 8:30
+      Először alaposan átolvastuk legalább 69-szer a feladatot, hogy biztosan ne vétsünk 1 hibát se.
+      </p><hr><br>
+      Csapatunk tagjai ők: Balázs Juhász, Vida Henrik, Zorinátz Péter.
+      <hr><br>
+      A HTML munkálatokat Péter fogja csinálni, Vida Henrik a Packet Tracert (ha megcsinálja egyáltalán)
+      és Balázs a dokumentációt, programokat(javascript, python).
+      <hr><br>
+      Ezzel el is kezdődtek a munkálatok, ezerrel püföljük a billentyűket, hogy tökéletesen működjön minden, amit írunk.
+      <hr><br>
+      Az munkálatokról szóló képeket a Z:\10. Osztály\10. Osztály - Monok Judit\projekt04.06\Munkálati Képek fájlmappában lehet megtekinteni
+      <hr><br>
+      Reméljük Henrik megcsinálja (legalábbis elkezdi) a Packet Tracer feladatot.
+      <hr><br>
+      2022.04.06 9:33
+      Péter elkezdte csinálni a html weboldalt
+      <hr><br>
+      Balázs befejezte a programot, mostantól ő írja a dokumentálást
+      <hr><br>
+      Balázs elkezdett javascriptben munkálkodni, mivel eléggé unatkozott
+      <hr><br>
+      10:00
+      Miután rájöttünk hogy html helyett hmtl-t írtunk id ként, újra feltöltöttük a html file-t
+      <hr><br>
+      10:35
+      Befejeztük a javascript file-t, html-be beleépítve és fixeltük a bugokat
+      <hr><br>
+      13:40
+      Péter elkezdte újra frissíteni a css-t, hogy jobban nézzen ki a weboldalt.
+      Ezt a sort Péter írta 😃
+      <hr><br>
+      <p></p>
+      <h2>ÁRKALKULÁTOR HERE!!!</h2>
+      <!--<img src="pythonszenvedes.png" alt="Python kódolása" target="Python kódolása" style="width:30%;float:left;margin:auto 20px;"> -->
+      <form id="kalkulatorjshtml" style="margin:10px 600px;">
+          Eszköz neve: <input type="text" name="neve"><br>
+          Vásárlási ára: <input type="number" name="ara"><br>
+          Darabszám: <input type="number" name="db"><br>
+      </form>
+      <button onclick="kalkulatorjs()" style="bottom:0;right:0;left:50%;width:70px;">Számítás</button> 
+     <p id="kalkulatorszoveg" sytle="position:absolute;left:50%;bottom:0;"> költségvetése: 0FT<br></p>
+  
+  <script>
+   function kalkulatorjs() {
+    var x = document.getElementById("kalkulatorjshtml");
+    var text = "";
+    var i;
+    text += x.elements[0].value + " költségvetése: " + (x.elements[1].value * x.elements[2].value) + "FT" + "<br>";
+    document.getElementById("kalkulatorszoveg").innerHTML = text;
+  } 
+  </script>
+  <footer style="background-color:gray;height:80px;color:white;">
+    <p id="footertext">Ezt a weboldalt Balázs és Péter közös erőfeszítésekkel hozta létre</p>
+  </footer>
+ 
+ 
+
+</body></html>
