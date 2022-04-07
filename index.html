@@ -1,6 +1,4 @@
- <!DOCTYPE html>
- <html lang="hu">
- <head>
+<html lang="hu"><head>
      <meta charset="UTF-8">
      <link rel="stylesheet" href="style.css">
      <link rel="bootstrap.min.js">
@@ -14,7 +12,7 @@
     <p>
       2022.04.06 8:30
       Először alaposan átolvastuk legalább 69-szer a feladatot, hogy biztosan ne vétsünk 1 hibát se.
-      <hr><br>
+      </p><hr><br>
       Csapatunk tagjai ők: Balázs Juhász, Vida Henrik, Zorinátz Péter.
       <hr><br>
       A HTML munkálatokat Péter fogja csinálni, Vida Henrik a Packet Tracert (ha megcsinálja egyáltalán)
@@ -39,15 +37,15 @@
       10:35
       Befejeztük a javascript file-t, html-be beleépítve és fixeltük a bugokat
       <hr><br>
-      </p>
-      <img src="pythonszenvedes.png" alt="Python kódolása" target="Python kódolása" style="width:40%;float:left;">
-      <form id="kalkulatorjshtml">
+      <p></p>
+      <img src="pythonszenvedes.png" alt="Python kódolása" target="Python kódolása" style="width:30%;float:left;margin:auto 20px;">
+      <form id="kalkulatorjshtml" style="margin:10px 600px;">
           Eszköz neve: <input type="text" name="neve"><br>
           Vásárlási ára: <input type="number" name="ara"><br>
           Darabszám: <input type="number" name="db"><br>
       </form>
-      <button onclick="kalkulatorjs()">Számítás</button> 
-     <p id="kalkulatorszoveg"></p>
+      <button onclick="kalkulatorjs()" style="position:absolute;bottom:0;right:0;left:50%;width:70px;">Számítás</button> 
+     <p id="kalkulatorszoveg" sytle="position:absolute;left:50%;bottom:0;"> költségvetése: 0FT<br></p>
   
   <script>
    function kalkulatorjs() {
@@ -58,6 +56,7 @@
     document.getElementById("kalkulatorszoveg").innerHTML = text;
   } 
   </script>
- </body>
- </html>
+ 
+ 
 
+</body></html>
